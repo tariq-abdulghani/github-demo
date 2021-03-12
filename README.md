@@ -39,4 +39,3 @@ Simple demo repo to review hot to use github and git
 * git log
 * git show < commit_it >
 * git help < command >
-?
