@@ -18,3 +18,22 @@ Simple demo repo to review hot to use github and git
 * git commit -m "< comment >"
 * git push < remote > < branch >
 * git pull < remote > < branch >
+
+## Undoing Things:
+* git restore --staged < file >..." to unstage.
+* git restore < file >..." to discard changes in working directory
+
+## Moving / Deleting files:
+* git mv < old_name > < new_name >
+* git rm < file_name > #removes file that is tracked
+  for deleted files if we want to revert deleting
+  we need to do it in two steps
+  first restore --staged
+  second restore
+
+  because unstaging  means just don't put changes in staging state
+  but restoring the file is just discard the last changes.
+
+
+## Utils:
+* git log
