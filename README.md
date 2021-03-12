@@ -13,6 +13,8 @@ Simple demo repo to review hot to use github and git
 
 ## basic commands:
 * git status
+* git ls-files  #to list tracked files
 * git add < file-name >
 * git commit -m "< comment >"
 * git push < remote > < branch >
+* git pull < remote > < branch >
