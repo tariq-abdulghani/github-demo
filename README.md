@@ -62,3 +62,10 @@ Simple demo repo to review hot to use github and git
 > to rename a branch
 * git branch -d < branch-name >
 > to delete a branch
+* git merge < branch_that_you_merge_to_your_current_branch >
+> if u want to merge to master u need to be in master first then 
+> merge the other branch to master
+
+* git merge --no-ff < branch_that_you_merge_to_your_current_branch >
+> no fast forward merge it will keep branching topology
+
