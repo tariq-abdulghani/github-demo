@@ -1,6 +1,7 @@
 # github-demo
 Simple demo repo to review hot to use github and git
 
+
 ## git configs commands:
 * git config --global user.name "< user_name  >"
 * git config --global user.email "< user_email >"
@@ -56,7 +57,7 @@ Simple demo repo to review hot to use github and git
 * git branch "< branch_name >"
 > creates new branch
 * git checkout < branch_name >
->switch to given branch name
+>switch to given branch name and updates files with HEAD 
 * git branch -m < old-branch-name > < new-branch-name>
 > to rename a branch
 * git branch -d < branch-name >
