@@ -48,3 +48,16 @@ Simple demo repo to review hot to use github and git
 * git diff #compares working dir to the staging area
 * git diff HEAD #compares working dir against last commit
 * git diff --cached HEAD #compares staging area to the last commit
+
+
+## Branching & Merging.
+* git branch -a 
+>list all branches local or remote.
+* git branch "< branch_name >"
+> creates new branch
+* git checkout < branch_name >
+>switch to given branch name
+* git branch -m < old-branch-name > < new-branch-name>
+> to rename a branch
+* git branch -d < branch-name >
+> to delete a branch
