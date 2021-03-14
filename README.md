@@ -6,6 +6,7 @@ Simple demo repo to review hot to use github and git
 * git config --global user.email "< user_email >"
 * git config --global --list
 * git config --global core.editor "< editor >"
+* git config --global diff.tool "< visual_diff_tool >"
 
 ## initializing repo commands:
 * git clone < url >
@@ -39,3 +40,11 @@ Simple demo repo to review hot to use github and git
 * git log
 * git show < commit_it >
 * git help < command >
+
+## Comparisons:
+  >note if you've configured difftool you cna replace
+  >each diff with difftool in the following statements.
+
+* git diff #compares working dir to the staging area
+* git diff HEAD #compares working dir against last commit
+* git diff --cached HEAD #compares staging area to the last commit
