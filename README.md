@@ -69,3 +69,8 @@ Simple demo repo to review hot to use github and git
 * git merge --no-ff < branch_that_you_merge_to_your_current_branch >
 > no fast forward merge it will keep branching topology
 
+>**Automatic Merges:**
+when u work on a branch and other commit to the brach you
+want to merge with but they change files other than yours.
+>**Conflicting Merges:**
+
