@@ -74,4 +74,4 @@ Simple demo repo to review hot to use github and git
 when u work on a branch and other commit to the brach you
 want to merge with but they change files other than yours.
 >**Conflicting Merges:**
-
+when u do commits to single file from different branches .
