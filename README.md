@@ -39,6 +39,7 @@ Simple demo repo to review hot to use github and git
 
 ## Utils:
 * git log
+>git log --graph --oneline --decorate --all
 * git show < commit_it >
 * git help < command >
 
