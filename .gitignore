@@ -1,3 +1,7 @@
 ingore.txt
 anotherignore.txt
 allll.txt
+*.orig
+*.log
+log/
+#.gitignore
