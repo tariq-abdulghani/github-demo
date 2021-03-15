@@ -13,8 +13,9 @@ Simple demo repo to review hot to use github and git
 > we can create git repo locally first or from
 > github repo.
 * git clone < url >
-* git init
-
+* git init [ < dir_name > ]
+> if dir_name is not provided git will initialize current
+> dir as a git repo.
 
 ## basic commands:
 * git status
