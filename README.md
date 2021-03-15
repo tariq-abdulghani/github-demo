@@ -10,8 +10,9 @@ Simple demo repo to review hot to use github and git
 * git config --global diff.tool "< visual_diff_tool >"
 
 ## initializing repo commands:
-* git clone < url >
 * git init
+* git clone < url >
+
 
 
 ## basic commands:
