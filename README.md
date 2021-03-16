@@ -29,6 +29,18 @@ Simple demo repo to review hot to use github and git
 * git restore --staged < file >..." to unstage.
 * git restore < file >..." to discard changes in working directory
 
+* git checkout < commit_id > **is safe to use**
+* git revert < commit_id >
+>reverts only that commit.
+* git reset < commit_id >
+>restores the project to that commit all commits after are removed
+
+
+>As said, using the reset command on your HEAD branch is a quite drastic action: it will remove any commits (on this branch) that came after the specified revision. If you're sure that this is what you want, everything is fine.
+>However, there is also a "safer" way in case you'd prefer leaving your current HEAD branch untouched. Since "branches" are so cheap and easy in Git, we can easily create a new branch which starts at that old revision:
+
+* git checkout -b old-project-state 0ad5a7a6
+
 ## Moving / Deleting files:
 * git mv < old_name > < new_name >
 * git rm < file_name > #removes file that is tracked
