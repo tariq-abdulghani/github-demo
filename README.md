@@ -79,3 +79,11 @@ when u work on a branch and other commit to the brach you
 want to merge with but they change files other than yours.
 >**Conflicting Merges:**
 when u do commits to single file from different branches .
+
+
+## Stashing (saving changes in temp dir and checkout to the last commit)
+* git stash
+* git stash list
+* git stash apply  < stash_name >
+* git stash pop
+>retrieves the latest stash from stash stack
